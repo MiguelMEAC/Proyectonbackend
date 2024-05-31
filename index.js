@@ -4,10 +4,10 @@ const cors = require('cors');
 const app = express();  
 const PORT = 2000;
 const connection = mysql.createConnection({
-    host: 'localhost',
+    host: 'viaduct.proxy.rlwy.net',
     user: 'root',
-    password: '',
-    database: 'proyecto'
+    password: 'ekGZZPyzwkVbjXzfYeIoSYwHFyCrsqiF',
+    database: 'railway'
 });
 
 connection.connect((error) => {
